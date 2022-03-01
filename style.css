@@ -1,0 +1,49 @@
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+:root {
+  --def_color: #464646;
+  --drk_grey: #666666;
+  --md_grey: #929292;
+  --lgt_grey: #bdbdbd;
+  --drk_white: #eee;
+  --cd_blue1: #1e7dc3;
+  /* --cd_blue2: #097ec3; */
+  --cd_blue_shadow: #097fc379;
+  /* --cd_blue_shadow: #097fc340; */
+  --black_shadow: #00000060;
+  --white_trans: #ffffff86;
+  --cd_blue_hover: #067dc2;
+  --test_pink: deeppink;
+  --lightblue: #9dc3e6;
+  --white: white;
+  --text_shadow_val: 0 0rem 0.2rem;
+  --text_shadow_val2: 0 0rem 0.125rem;
+  --b_rect_size: calc(120px + (30vw - 120px) * 0.25);
+  --corpus_width: calc(300px + (95vw - 300px) * 0.6);
+  --logo_height: calc(30px + (5vw - 30px) * 0.6);
+  --bigblue_size: 15vw;
+  --rel_size: calc(8vh + 10vw);
+  font-size: 10px;
+  color: var(--def_color);
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+body,
+body div {
+  display: flex;
+}
+body,
+body > div,
+body > div > div {
+  flex-direction: column;
+}
